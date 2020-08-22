@@ -72,6 +72,7 @@ class SecondActivity : AppCompatActivity() {
 
                 // displaying all data from stringBuilder
                 tvResult.setText(sb)
+                // result output
             }
 
             override fun onCancelled(error: DatabaseError) {
