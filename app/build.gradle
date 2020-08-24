@@ -27,7 +27,7 @@ android {
             variant ->
                 variant.outputs.each{
                     output ->
-                        def name = "TrialAndError v${variant.versionName}(${variant.versionCode}).apk"
+                        def name = "TrialAndError v${variant.versionName}_${variant.versionCode}.apk"
                         output.outputFileName = name
                 }
         }
